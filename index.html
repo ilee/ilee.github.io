@@ -1,236 +1,544 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Veterans List</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="homepage">
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to our Wedding Website :)</title>
 
-		<!-- Wrapper -->
-		<div id="wrapper">
+	<!-- Favicon -->
+	<link rel="icon" href="images/giraffe-yellow.png" type="image/x-icon">
+	<!-- Library CSS -->
+	<link href="css/glanz_library.css" rel="stylesheet">
+	<!-- Icons CSS -->
+	<link href="fonts/themify-icons.css" rel="stylesheet">
+	<!-- Theme CSS -->
+	<link href="css/glanz_style.css" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Dosis:300,400,600,700%7COpen+Sans:300,400,700%7CPlayfair+Display:400,400i,700,700i" rel="stylesheet">
+	<!-- Other Fonts -->
+	<link href="fonts/marsha/stylesheet.css" rel="stylesheet">
+</head>
+
+<!-- Body -->
+<body class="gla_middle_titles">
+
+	<!-- Page -->
+	<div class="gla_page" id="gla_page">
+		<!-- To Top -->
+		<a href="#gla_page" class="gla_top ti ti-angle-up gla_go"></a>
+
+		<!-- Header -->
+		<header>
 			
-			<!-- Header -->
-				<header id="header">
-					<!-- Logo -->
-					<h1><a href="#">VeteransList.us</a></h1>
-						
-						<!-- Nav links + search bar -->
-						<nav class="links">
-							<ul>
-								<li><a href="#">Home</a></li>
-								<li><a href="#">Directory</a></li>
-								<li><a href="#">Resources</a></li>
-								<li><a href="#">Community</a></li>
-								<li><a href="#">Marketplace</a></li>
-							</ul>
-						</nav>
-						<nav class="main">
-							<ul>
-								<li class="search">
-									<a class="fa-search" href="#search">Search</a>
-									<form id="search" method="get" action="#">
-										<input type="text" name="query" placeholder="Search" />
-									</form>
-								</li>
-							</ul>
-						</nav>
-				</header> <!-- #header -->
+			<nav class="gla_light_nav gla_transp_nav">
+				
+				<div class="container">
 
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content container 75%">
-					<header>
-						<h2>Helping Veteran-Owned Businesses Be Found</h2>
-					</header>
-					<p>Welcome to <strong>VeteransList.</strong> We are a community of veterans doing business together to help those who want to do business with veterans. We are partnered with <a href="#">FirstData</a>, <a href="#">IAVA</a>, and <a href="#">StreetShares</a> to help bring veterans the competitive advantage to stay on top of today's marketplace.</p>
-					<footer>
-						<!-- <a href="#one" class="button style2 down">Get Started</a> -->
-					</footer>
-				</div>
-			</section> <!-- #intro -->
-
-		<!-- Banner -->
-<!-- 			<section id="banner">
-				<header>
-					<h2>This Month's Featured Businesses:</h2>	
-				</header>
-			</section> -->
-
-
-		<!-- Carousel -->
-			<section class="carousel">
-				<header>
-					<h2>This Month's Featured Businesses:</h2>	
-				</header>
-
-				<hr>
-
-				<div class="reel">
-
-					<article>
-						<a target="_blank" href="http://www.combatflipflops.com/" class="image featured"><img src="images/banner-img/combatff-1.jpg" alt="Combat Flip Flops" /></a>
-						<header>
-							<h3><a target="_blank" href="http://www.combatflipflops.com/">Combat Flip Flops</a></h3>
-						</header>
-						<p>Combat Flip Flops creates peaceful, forward-thinking opportunities for self-determined entrepreneurs affected by conflict...</p>
-					</article>
-
-					<article>
-						<a target="_blank" href="http://www.counterstrikecoffee.com/" class="image featured"><img src="images/banner-img/counterstrike-1.jpg" alt="Counterstrike coffee" /></a>
-						<header>
-							<h3><a target="_blank" href="http://www.counterstrikecoffee.com/">Counter-Strike Coffee</a></h3>
-						</header>
-						<p>Strike back at sleepiness and fatigue with a hot cup of counter strike coffee. Now with three amazing blends including Fire Watch ...</p>
-					</article>
-
-					<article>
-						<a target="_blank" href="http://www.articsolar.com/" class="image featured"><img src="images/banner-img/arcticsolar-1.jpg" alt="Artic solar" /></a>
-						<header>
-							<h3><a target="_blank" href="http://www.articsolar.com/">Artic Solar</a></h3>
-						</header>
-						<p>Artic Solar manufactures a new solar thermal collector technology with patent-pending non-imaging optics...</p>
-					</article>
-
-					<article>
-						<a target="_blank" href="http://www.matbock.com/" class="image featured"><img src="images/banner-img/matbock-1.png" alt="Matbock" /></a>
-						<header>
-							<h3><a target="_blank" href="http://www.matbock.com/">Matbock</a></h3>
-						</header>
-						<p>We specialize in unique military gear designed to specifically meet deficiencies in current equipment....</p>
-					</article>
-
-					<article>
-						<a target="_blank" href="https://www.thegundude.com/" class="image featured"><img src="images/banner-img/gundude-1.png" alt="Gun Dude" /></a>
-						<header>
-							<h3><a target="_blank" href="https://www.thegundude.com/">The Gun Dude</a></h3>
-						</header>
-						<p>The Gun Dude is here to help you walk through the initial stages of the firearm selection process with standards that lead to quality and affordable inventory at different levels...</p>
-					</article>
-
-				</div>
-			</section>
-
-			<hr>
-
-		<!-- Features -->
-			<div class="wrapper style1">
-
-				<section id="features" class="container special">
-					<header>
-						<h2>VeteransList Features</h2>
-						<p>We partner with ... to provide the following services for veterans and those seeking to do business with veterans...</p>
-					</header>
-					<div class="row">
-						<article class="4u 12u(mobile) special">
-							<a href="#" class="image featured"><img src="images/marine-presidents.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Business Command Center</a></h3>
-							</header>
-							<p>
-								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-							</p>
-						</article>
-						<article class="4u 12u(mobile) special">
-							<a href="#" class="image featured"><img src="images/iwo-jima.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Comprehensive Business Directory</a></h3>
-							</header>
-							<p>
-								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-							</p>
-						</article>
-						<article class="4u 12u(mobile) special">
-							<a href="#" class="image featured"><img src="images/marine-silent-drill-blue-angels.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Veterans Marketplace</a></h3>
-							</header>
-							<p>
-								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-							</p>
-						</article>
+					<div class="gla_logo_container clearfix">
+						<img src="images/giraffe-yellow.png" alt="" ><!-- class="gla_logo_rev" -->
+						<div class="gla_logo_txt">
+							<!-- Logo -->
+							<a href="/" class="gla_logo">Julie  &  Isaac</a>
+							<!-- Text Logo -->
+							<div class="gla_logo_und">January 27, 2018</div>
+						</div>
 					</div>
-				</section>
 
-			</div>
+					<!-- Mobile Menu -->
+					<div class="gla_main_menu gla_main_menu_mobile">
+						<div class="gla_main_menu_icon">
+							<i></i><i></i><i></i><i></i>
+							<b>Menu</b>
+							<b class="gla_main_menu_icon_b">Back</b>
+						</div>
+					</div>
+					
+					<!-- Menu Content -->
+					<div class="gla_main_menu_content gla_image_bck" data-color="rgba(0,0,0,0.8)" data-image="/images/us/walkingfullblur-underwater.jpg">
+						<!-- Over -->
+						<div class="gla_over" data-color="#000" data-opacity="0.7"></div>
+					</div>
 
-			<hr>
+					<div class="gla_main_menu_content_menu gla_wht_txt text-right">
+						<div class="container">
+							<ul>
+								<li class="mobile_menu_link"><a href="#save-the-date">Save the Date</a></li>
+								<li class="mobile_menu_link"><a href="#details">Details</a></li>
+								<li class="mobile_menu_link"><a href="#registry">Registry</a></li>
+								<li class="mobile_menu_link"><a href="#photo-album">Photo Album</a></li>
+<!-- 							<li class="gla_parent"><a href="#">The Date</a>
+									<ul>
 
-		<!-- Contact -->
-			<section id="contact" class="main style3 secondary">
-				<div class="content container">
-					<header>
-						<h2>Contact Us.</h2>
-						<p>Have a question/comment or want your veteran-owned business listed here?</p>
-					</header>
-					<div class="box container 75%">
-
-					<!-- Contact Form -->
-						<form method="post" action="#">
-							<div class="row 50%">
-								<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-								<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div>
-							</div>
-							<div class="row 50%">
-								<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" /></li>
 									</ul>
-								</div>
+								</li>
+								<li class="gla_parent"><a href="#">LA!</a>
+									<ul>
+										<li><a href="02_01_invitation.html">Invitation 1</a></li>
+									</ul>
+								</li>
+
+								<li class="gla_parent"><a href="#">Blog</a>
+									<ul>
+										<li><a href="03_01_blog_sidebar.html">Blog with Sidebar</a></li>
+									</ul>
+								</li>
+-->
+							</ul>
+							<div class="gla_main_menu_content_menu_copy">
+								<br>
+								<p>© Julie and Isaac 2017</p>
 							</div>
-						</form>
-
+						</div>
+						<!-- container end -->
 					</div>
+					<!-- menu content end -->
+
+					<!-- Website Top Menu -->
+					<div class="gla_default_menu">
+						<ul>
+							<li><a href="#save-the-date">Save the Date</a></li>
+							<li><a href="#details">Details</a></li>
+							<li><a href="#registry">Registry</a></li>
+							<li><a href="#photo-album">Photo Album</a></li>
+
+<!-- 							<li class="gla_parent"><a href="javascript:;">The Date</a>
+								<ul>
+									<li><a href="01_07_wedding_planner.html">Wedding Details</a></li>
+								</ul>
+							</li>
+							<li class="gla_parent"><a href="javascript:;">LA!</a>
+								<ul>
+									<li><a href="02_01_invitation.html">Invitation 1</a></li>
+								</ul>
+							</li>
+
+							<li class="gla_parent"><a href="javascript:;">Blog</a>
+								<ul>
+									<li><a href="03_01_blog_sidebar.html">Blog with Sidebar</a></li>
+								</ul>
+							</li>
+-->
+						</ul>
+					</div>
+					<!-- Top Menu End -->
+
 				</div>
-			</section>
+				<!-- container end -->
+			</nav>
+			
+		</header>
+		<!-- Header End -->
 
-		<!-- Footer -->
-			<footer id="footer">
+		<!-- Top Section -->
+		<div class="gla_slider gla_image_bck  gla_wht_txt gla_fixed"  data-image="/images/us/walkingfullblur-underwater.jpg" data-stellar-background-ratio="0.8">
 
-				<!-- Icons -->
-					<ul class="actions">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
+			<!-- Over -->
+			<div class="gla_over" data-color="#9abab6" data-opacity="0.1"></div>
+			<div class="container">
 
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; VeteransList.us</li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Partners</a></li>
-						<li><a href="#">Advertise With Us</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
+				<!-- Slider Texts -->
+				<div class="gla_slide_txt gla_slide_center_top text-center">
+					<p><img src="images/animations/ourwedding_wh.gif" data-top-bottom="@src:images/animations/ourwedding_wh.gif" alt="" height="150"></p>
+				</div>
+				<!-- Slider Texts End -->
+			
+			</div>
+			<!-- container end -->
 
-			</footer>
-
+			<!-- Slide Down -->
+			<a class="gla_scroll_down gla_go" href="#gla_content">
+				<b></b>
+				Scroll
+			</a>
 
 		</div>
+		<!-- Slider End -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.onvisible.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+		<!-- Rest of Page Content -->
+		<section id="gla_content" class="gla_content">
 
-	</body>
+			<!-- Save the Date Section  -->
+			<section id="save-the-date" class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8" data-image="/images/la-skyline.jpg">
+				
+				<!-- Over -->
+				<div class="gla_over" data-color="#282828" data-opacity="0.4"></div>
+				
+				<div class="container text-center">
+					<p><img src="images/animations/savethedate_wh.gif" data-bottom-top="@src:images/animations/savethedate_wh.gif" height="150" alt=""></p>
+					<h2>January 27th, 2018</h2>
+					<h3 class="gla_subtitle">First Presbyterian Church of Hollywood<br>Los Angeles, CA</h3>
+					<div class="gla_countdown" data-year="2018" data-month="01" data-day="27"></div>
+					
+				</div>
+				<!-- container end -->
+
+			</section>
+			<!-- section end -->
+
+			<!-- When & Where Section -->
+			<section id="details" class="gla_section">
+				
+				<div class="container text-center">
+					<p><img src="images/animations/flowers2.gif" data-bottom-top="@src:images/animations/flowers2.gif" height="150" alt=""></p>
+					<h2>Wedding Details</h2>
+					<!-- <h3 class="gla_subtitle">When & Where</h3> -->
+					<p>Our ceremony will be held at the First Presbyterian Church of Hollywood in Los Angeles, CA at 3:30pm with a reception to follow at Madera Kitchen. For the ceremony, we recommend guests park in the church's parking lot on Carlos Ave. After completion of the ceremony, we will be asking guests to start heading down the street to Madera Kitchen where there will be complimentary valet parking, which we also recommend :)</p>
+					
+					<!-- Boxes -->
+					<div class="gla_icon_boxes row text-left">
+
+						<!-- Ceremony -->
+						<div class="col-md-4 col-sm-6">
+							<div class="gla_news_block">
+								<span class="gla_news_img">
+									<span class="gla_over" data-image="/images/fpch-old.jpg"></span>    
+								</span>
+								<span class="gla_news_title">Ceremony</span>
+								<p><strong>First Presbyterian Church of Hollywood</strong><br>1760 N. Gower St, Los Angeles, CA</p>
+							</div>
+						</div> 
+
+						<!-- Reception -->
+						<div class="col-md-4 col-sm-6">
+							<div class="gla_news_block">
+								<span class="gla_news_img">
+									<span class="gla_over" data-image="/images/madera-3.jpg"></span>  
+								</span>
+								<span class="gla_news_title">Reception</span>
+								<p><strong>Madera Kitchen</strong><br>1835 N. Cahuenga Blvd, Los Angeles, CA</p>
+							</div>
+						</div> 
+
+						<!-- Parking -->
+						<div class="col-md-4 col-sm-6">
+							<a href="https://www.google.com/maps/dir/First+Presbyterian+Church+of+Hollywood,+1760+N.+Gower+St.,+Los+Angeles,+CA+90028/Madera+Kitchen,+1835+N+Cahuenga+Blvd,+Los+Angeles,+CA+90028/@34.1053508,-118.3282317,17z/am=t/data=!4m18!4m17!1m5!1m1!1s0x80c2bf475bcc6f79:0x11624ec2661b3e24!2m2!1d-118.3220402!2d34.1033032!1m5!1m1!1s0x80c2bf3c4c12a21f:0xda2b968b4ceb3c06!2m2!1d-118.3305397!2d34.1049102!3e0!6m3!1i0!2i0!3i1?hl=en-US" target="_blank" class="gla_news_block">
+								<span class="gla_news_img">
+									<span class="gla_over" data-image="/images/driving-better.png"></span>  
+								</span>
+								<span class="gla_news_title">Driving Directions</span>
+								<p>Click for Google Maps<br></p>
+							</a>
+						</div> 
+
+					</div>
+					<!-- boxes end -->
+
+				</div>
+				<!-- container end -->
+
+			</section>
+			<!-- section end -->
+
+			<!-- Google Maps Section -->
+<!--			<section class="gla_section">
+				<div class="gla_map">
+				<iframe src="https://www.google.com/maps/d/embed?mid=1Db39qSrYMFfOT9Momg4l4VQEOng&hl=en" width="100%" height="480"></iframe>
+
+				</div>
+			</section>
+		-->
+			<!-- section end -->
+
+			<!-- Registry -->
+			<section id="registry" class="gla_section gla_image_bck gla_wht_txt gla_fixed" data-stellar-background-ratio="0.8" data-image="/images/us/proposal.jpg">
+
+				<!-- Over -->
+				<div class="gla_over" data-color="#282828" data-opacity="0.4"></div>
+				<div class="container text-center">
+		   
+					<h2>Registry</h2>
+					
+					<p>
+						Your presence is all we wish for our wedding day!<br>
+						However, if you decide on a gift, we have registered at the following:</p>
+
+					<!-- icon boxes -->
+					<div class="gla_icon_boxes gla_partners row">
+
+						<!-- item -->
+						<div class="gla_partner_box">
+							<a href="https://www.crateandbarrel.com/gift-registry/julie-kim-and-isaac-lee/r5767929" target="_blank"><img src="/images/cratebarrelwedding.jpg" height="80" alt=""></a>
+						</div>
+
+						<!-- item -->
+						<div class="gla_partner_box">
+							<a href="https://www.myregistry.com/wedding-registry/Julie-Kim-Isaac-Lee-Porter-Ranch-Ca/1433118" target="_blank"><img src="/images/costco-registry.png" height="80" alt=""></a>
+						</div>
+
+						<!-- item -->
+						<div class="gla_partner_box">
+							<a href="https://www.amazon.com/wedding/julie-kim-isaac-lee-hollywood-january-2018/registry/1OLWBTAF5BP0W" target="_blank"><img src="/images/amazon-registry.jpg" height="80" alt=""></a>
+						</div>
+						
+					</div>
+					<!-- icon boxes end -->              
+					
+				</div>
+				<!-- container end -->
+
+			</section>
+			<!-- section end -->
+
+			<!-- Photo Album -->
+			<section id="photo-album" class="gla_section gla_image_bck">
+
+				<div class="container text-center">
+					<p><img src="images/animations/flowers3.gif" data-bottom-top="@src:images/animations/flowers3.gif" height="130" alt=""></p>
+					<h2>Photo Album</h2>
+					<p>The adventures of Julie and Isaac</p>
+					
+					<!-- filters -->
+					<div class="button-group filter-button-group">
+						<a data-filter="*">Show All</a>
+						<a data-filter=".proposal">Proposal</a>
+						<a data-filter=".korea">Korea</a>
+						<a data-filter=".engagement">Engagement Photos</a>
+						<a data-filter=".together">Together</a>
+					</div>
+					<!-- filters end -->
+
+					<!-- grid -->
+					<div class="gla_portfolio_no_padding grid">
+						
+						<!-- item -->
+						<div class="col-sm-4 gla_anim_box grid-item korea">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/wall-selfie-sm.jpeg" class="lightbox">
+									<img src="/images/photo-album/wall-selfie-crop.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item proposal">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/proposal-hug.jpg" class="lightbox">
+									<img src="/images/photo-album/proposal-hug.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item korea">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/namsan-stairs-sm.jpg" class="lightbox">
+									<img src="/images/photo-album/namsan-stairs-crop.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item korea">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/kakao-dolls-sm.jpg" class="lightbox">
+									<img src="/images/photo-album/kakao-dolls-sm.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item together">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/shadows-full-sm.jpg" class="lightbox">
+									<img src="/images/photo-album/shadows-sm.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item together">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/smiley-sm.jpg" class="lightbox">
+									<img src="/images/photo-album/smiley-sm.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item proposal">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/proposal-hugging-full-sm.jpg" class="lightbox">
+									<img src="/images/photo-album/proposal-hugging-sm.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item korea">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/kakao-statues-full-sm.jpg" class="lightbox">
+									<img src="/images/photo-album/kakao-statues-sm.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0008.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0008.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0004.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0004.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0010.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0010.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0022.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0022.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0050.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0050.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0070.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0070.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0082.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0082.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0085.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0085.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0087.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0087.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0089.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0089.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0090.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0090.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0100.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0100.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0115.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0115.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0119.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0119.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0130.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0130.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0137.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0137.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-sm-4 gla_anim_box grid-item engagement">
+							<div class="gla_shop_item">
+								<a href="/images/photo-album/engagement/0146.jpg" class="lightbox">
+									<img src="/images/photo-album/engagement/0146.jpg" alt="">
+								</a>
+							</div>
+						</div>
+
+					 </div>
+					 <!-- grid end -->
+					
+				</div>
+				<!-- container end -->
+
+			</section>
+			<!-- section end -->
+
+			<!-- Thank You Section -->
+			<section class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8" data-image="/images/us/korea-old-door-wide.jpg">
+				
+				<!-- Over -->
+				<div class="gla_over" data-color="#282828" data-opacity="0.4"></div>
+				<div class="container text-center">
+					<p><img src="images/animations/thnyou_wh.gif" alt="" height="200" data-bottom-top="@src:images/animations/thnyou_wh.gif"></p>
+					<h2></h2>
+					<h3></h3>
+					<div></div>
+				</div>
+				<!-- container end -->
+
+			</section>
+			<!-- section end -->
+
+		</section>
+		<!-- Content End --> 
+
+	</div>
+	<!-- Page End -->
+
+<!-- JQuery -->
+<script src="js/jquery-1.12.4.min.js"></script> 
+<!-- Library JS -->
+<script src="js/glanz_library.js"></script> 
+
+<!-- Theme JS -->
+<script src="js/glanz_script.js"></script>
+
+</body>
 </html>
